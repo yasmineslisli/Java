@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c74f89fe-ade7-4f8b-8921-82ce79d3e6b2" name="Changes" comment="create scrap emploi.ma">
-      <change afterPath="$PROJECT_DIR$/src/database/HandleDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/EmploiJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+    <list default="true" id="c74f89fe-ade7-4f8b-8921-82ce79d3e6b2" name="Changes" comment="add recrute">
+      <change afterPath="$PROJECT_DIR$/src/model/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scrap/Recrute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scrap/techs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scrap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrap/Emploi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/HandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/HandleDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/EmploiJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scrap/Emploi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrap/Emploi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,29 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/yasmi/Downloads/jsoup-1.15.3.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yasmi/Downloads/Jobs_AI_Scrap-main (1)/Jobs_AI_Scrap-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +71,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671297597356</updated>
-      <workItem from="1671297599164" duration="3271000" />
+      <workItem from="1671297599164" duration="7182000" />
+      <workItem from="1671361740212" duration="10338000" />
+      <workItem from="1671396118465" duration="1000" />
+      <workItem from="1671398724363" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="create scrap emploi.ma">
       <created>1671298222521</created>
@@ -82,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671298384771</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add user and emmploi in database">
+      <created>1671307324330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671307324330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create scrap emploi.ma" />
-    <option name="LAST_COMMIT_MESSAGE" value="create scrap emploi.ma" />
+    <MESSAGE value="add user and emmploi in database" />
+    <MESSAGE value="add recrute" />
+    <option name="LAST_COMMIT_MESSAGE" value="add recrute" />
   </component>
 </project>
