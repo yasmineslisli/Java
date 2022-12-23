@@ -105,6 +105,7 @@ public class Mjob {
 
             }
 
+
             Elements details = jobBlock.select(".the-content");
             if(!details.isEmpty()) {
                 String description = details.text().toLowerCase();
