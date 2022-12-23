@@ -55,6 +55,7 @@ public class JobController {
         pstmt.setString(11, job.getSite());
         pstmt.setString(12, job.getUrl());
         pstmt.executeUpdate();
+
         System.out.println("Job added");
     }
 }

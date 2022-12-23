@@ -15,6 +15,7 @@ public class Connection {
 
         } catch (ClassNotFoundException | SQLException ex) {
             throw new RuntimeException(ex);
+
         }
 
         return statement;

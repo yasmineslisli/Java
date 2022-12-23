@@ -28,6 +28,7 @@ public class Job {
         this.url = url;
     }
 
+
     public String getTitre() {
         return titre;
     }

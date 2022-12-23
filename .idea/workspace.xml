@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="804be9fe-7802-439f-b544-ec022993acd5" name="Changes" comment="new" />
+    <list default="true" id="804be9fe-7802-439f-b544-ec022993acd5" name="Changes" comment="scrapp mjob">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Job.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dbe085bf-a37f-4237-99de-f11aceda63c0" />
+        <option name="url" value="https://github.com/yasmineslisli/Java" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,6 +62,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -56,7 +80,7 @@
       <workItem from="1671627500664" duration="385000" />
       <workItem from="1671702467210" duration="992000" />
       <workItem from="1671703617181" duration="509000" />
-      <workItem from="1671704401405" duration="9366000" />
+      <workItem from="1671704401405" duration="10153000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1671814081738</created>
@@ -65,14 +89,47 @@
       <option name="project" value="LOCAL" />
       <updated>1671814081738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="scrapp mjob">
+      <created>1671821819521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671821819521</updated>
+    </task>
+    <task id="LOCAL-00003" summary="scrapp mjob">
+      <created>1671821889150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671821889150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="scrapp mjob">
+      <created>1671822238364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671822238364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="scrapp mjob" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrapp mjob" />
   </component>
 </project>
